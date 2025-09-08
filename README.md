@@ -1,49 +1,32 @@
-# Welcome to your Lovable project
+# TranslatePro
 
-## Project info
+TranslatePro is a modern web app for fast, accurate text translation with deep linguistic insights. It couples a clean, glassmorphic UI with helpful analysis like grammar and tense hints to make translations clearer and more trustworthy.
 
-## How can I edit this code?
+## Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Real‑time translations with multi‑language support
+- Grammar and tense insights alongside results
+- Beautiful, responsive UI built with shadcn‑ui and Tailwind CSS
+- Light/dark theme toggle
 
-Follow these steps:
+## Tech Stack
+
+- React + TypeScript (Vite)
+- Tailwind CSS + shadcn‑ui
+
+## Quick Start
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Then open the local URL shown in the terminal.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `src/components/` – UI and layout components (e.g. `layout/Navbar.tsx`)
+- `src/pages/` – app pages (Home, Features, Pricing, etc.)
+- `public/` – static assets like `icon.png`
 
 
